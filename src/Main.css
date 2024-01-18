@@ -1,0 +1,49 @@
+.coursesHeading{
+    width: 100%;
+    /* height: 8vh; */
+}
+.coursesHeading :nth-child(1){
+    display: flex;
+}
+.coursesHeading :nth-child(2){
+    display: flex;
+}
+.playlistSectionMain{
+    overflow:scroll;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.playlistSectionMain::-webkit-scrollbar {
+    overflow-x: auto;
+    display: none;
+}
+.playlistSection{ 
+    margin-right: 10px;
+
+    /* border: 1px solid red; */
+}
+.playlistColors{
+width: 30vw;
+height: 25vh;
+}
+.playlistSectionTitle{
+    display: flex;
+    justify-content: left;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 8vh;
+}
+.playlistSectionDetails{
+    display: flex;
+}
+.playlistSection span{
+    margin: 0 3px 0 3px;
+    height: 5px;
+  width: 5px;
+  background-color: #020202;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+}

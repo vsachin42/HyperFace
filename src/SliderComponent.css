@@ -1,0 +1,47 @@
+/* SliderComponent.css */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    border: 2px solid red;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    flex: 0 0 50%; /* Show 2 cards at a time */
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card.active {
+    transform: scale(1.1);
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  .arrow-button.prev {
+    left: 10px;
+  }
+  
+  .arrow-button.next {
+    right: 10px;
+  }
+  

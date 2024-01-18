@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
+:root {
+    --main-bg-color: red;
+  }
